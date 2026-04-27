@@ -15,7 +15,7 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "李文龙"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "地球环境研究所"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
