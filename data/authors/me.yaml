@@ -1,116 +1,110 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: 李文龙
+  given: 文龙
+  family: 李
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"
+
+role: IoT / 数据平台 / 可视化 / 3D数字孪生开发工程师
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  李文龙是一名专注于工业互联网与数据可视化方向的开发工程师，
+  目前主要从事 IoT 物联网平台、数据共享平台与三维数字孪生系统的设计与开发。
+
+  在工程实践中，致力于构建从设备数据采集、传输、存储到可视化展示的一体化数据链路，
+  并结合 WebGL 与 Three.js 技术实现复杂工业场景的三维可视化表达。
+
+  关注方向包括：
+  - IoT 物联网数据平台架构设计
+  - 工业数据可视化与大屏系统
+  - 三维数字孪生（3D Digital Twin）
+  - 时空数据分析与实时监控系统
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Industrial IoT & Data Visualization Lab
+    url: ''
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:liwenlong@example.com
+    label: E-mail
+
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/
+    label: GitHub
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/
+    label: LinkedIn
+
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/
+    label: Google Scholar
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - IoT 物联网平台
+  - 工业数据可视化
+  - 3D数字孪生
+  - 实时数据监控系统
+  - WebGL / Three.js
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: 软件工程
+    institution: ''
+    start: 201X-09-01
+    end: 201X-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      专注于软件系统开发、分布式系统与可视化技术方向。
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: 数据平台开发工程师
+    org: ''
+    start: 2022-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      负责 IoT 物联网平台与数据共享系统开发，
+      构建设备数据采集、处理与可视化展示体系。
+
+  - role: 可视化系统开发
+    org: ''
+    start: 2021-01-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      参与多个工业数据大屏与3D可视化项目开发，
+      使用 ECharts / Three.js 构建数据驱动可视化系统。
 
 skills:
-  - name: Technical Skills
+  - name: 后端与平台
     items:
-      - label: Python
+      - label: Go / Python
         level: 5
-      - label: Machine Learning
+      - label: IoT系统架构
         level: 5
-      - label: Cloud Computing
+      - label: 分布式系统
         level: 4
-  - name: Research & Communication
+
+  - name: 可视化与前端
     items:
-      - label: Academic Writing
+      - label: Vue / React
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+      - label: ECharts
+        level: 5
+      - label: Three.js / WebGL
         level: 4
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - name: English
+    level: 3
+    label: Technical Reading
+
+awards: []
